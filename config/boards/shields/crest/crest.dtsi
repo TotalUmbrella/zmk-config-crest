@@ -9,11 +9,6 @@
         compatible = "zmk,physical-layout";
         display-name = "Default Layout";
         transform = <&default_transform>;
-        kscan = <&kscan0>;
-    };
-    chosen {
-        zmk,physical-layout = &default_layout;
-        // Other chosen items
     };
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
