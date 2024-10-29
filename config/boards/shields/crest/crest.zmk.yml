@@ -1,0 +1,13 @@
+file_format: "1"
+id: crest
+name: Crest
+type: shield
+url: https://github.com/TotalUmbrella/zmk-config-crest
+requires: [nice_nano, mx_hotswap, diode, reset]
+exposes: [nice_view]
+features:
+  - keys
+  - encoder
+siblings:
+  - crest_left
+  - crest_right
