@@ -3,3 +3,6 @@ config SHIELD_CREST_LEFT
 
 config SHIELD_CREST_RIGHT
     def_bool $(shields_list_contains,crest_right)
+
+config SHIELD_CREST_CENTRAL
+    def_bool $(shields_list_contains,crest_central)
