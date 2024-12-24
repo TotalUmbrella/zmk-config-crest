@@ -9,6 +9,5 @@ features:
   - keys
   - encoder
 siblings:
-  - crest_dongle
   - crest_left
   - crest_right

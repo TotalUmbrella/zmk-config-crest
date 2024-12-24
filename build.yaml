@@ -22,5 +22,3 @@ include:
     shield: crest_left
   - board: nice_nano_v2
     shield: crest_right
-  - board: nice_nano_v2
-    shield: crest_dongle
